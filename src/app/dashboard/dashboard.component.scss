@@ -1,0 +1,109 @@
+
+div.dashboard{
+	.search-banner{
+		text-align: center;
+		padding: 6rem 0;
+		background: url("../../assets/images/background.png");
+		background-size: cover;
+    background-repeat: no-repeat;
+		.text-banner{
+			font-size: 2.5rem;
+			margin-bottom: .8rem;
+			color: var(--awesome-darker);
+		}
+		.search-form{
+			input[type="text"]{
+				width: 20rem;
+				color: var(--awesome-orange);
+				border-radius: 4px;
+		    outline: none;
+		    box-shadow: 1px 0 8px rgba(0,0,0,0.1);
+		    overflow: visible;
+		    border: none;
+		    padding: 5px 10px;
+			}
+		}
+	}
+	.restaurants-list{
+		padding: 3em 0;
+		background: var(--awesome-bluesky);
+		.restaurants-heading{
+			padding-bottom: 3em;
+		}
+		.restaurants-slider{
+			display: flex;
+	    flex-direction: row;
+	    justify-content: space-between;
+	    position: relative;
+	    width: 100%;
+	    overflow-x: hidden;
+	    .card.restaurant{
+	    	min-width: 15rem;
+	    	margin-right: 6%;
+	    	border: none;
+	    	.card-body{
+	    		img{
+	    			width: 100%;
+	    		}
+	    	}
+	    	div.card-footer{
+	    		border: none;
+	    		display: flex;
+	    		margin-top: -1em !important;
+	    		.rounded-circle{
+	    			display: block;
+	    			color: #ffffff;
+	    			font-size: 12px;
+	    			font-weight: bold;
+	    			width: 45px;
+	    			height: 45px;
+	    			text-align: center;
+	    			line-height: 45px;
+	    		}
+	    		.restaurant-description{
+	    			font-size: 13px;
+	    		}
+	    	}
+	    }
+		}
+		.explore{
+			padding-top: 5em;
+		}
+	}
+	/* For the guides and their steps */
+	div.guides{
+		padding: 3.5em 0;
+		margin-bottom: 4em;
+		h4{
+			padding-bottom: 2em;
+		}
+		div.steps{
+			img{
+				width: 80px;
+				height: auto;
+			}
+			.guide{
+				font-size: .9em;
+			}
+		}
+	}
+
+	/* For the phone banner */
+	div.phone-banner{
+		background: var(--awesome-orange);
+		img.phone{
+			width: 425px;
+			margin-top: -65px;
+		}
+		.phone-description{
+			margin-top: 5em;
+			.phone-heading{
+
+			}
+			button{
+				color: var(--awesome-orange);
+			}
+		}
+	}
+
+}

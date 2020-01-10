@@ -1,11 +1,4 @@
-$awesome_dark : #3d444c;
-$awesome_red  : #cc4679;
-
-$awesome_light : #ffffff;
-$awesome_bluesky : #f5fafc;
-$awesome_orange : #ff6000;
-$awesome_dark : #3b3b3b;
-$awesome_darker: #151515;
+@import './theme/variables.scss';
 
 :host {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -17,12 +10,13 @@ $awesome_darker: #151515;
 }
 
 body{
+	margin-top: 40px;
 	nav{
 		&.navbar.fixed-top{
 			font-size: 14px;
 			box-shadow: 0 0 2px 1px rgba(0,0,0,0.2);
 			.navbar-brand{
-				color: $awesome_orange;
+				color: var(--awesome-orange);
 				img{
 					width: 80px;
     			height: 15px;
@@ -46,15 +40,17 @@ body{
 			}
 		}
 	}
+	/* Search banner */
+
 
 	.active{
-		color: $awesome_orange !important;
+		color: var(--awesome-orange) !important;
 		font-weight: bold;
 	}
 
 	.bg-awesome-orange{
-		background-color: $awesome_orange;
-		color: $awesome_light !important;
+		background-color: var(--awesome-orange);
+		color: var(--awesome-light) !important;
 	}
 
 }
