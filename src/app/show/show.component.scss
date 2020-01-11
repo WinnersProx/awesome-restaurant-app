@@ -31,12 +31,6 @@ div.dashboard{
 			div{
 				cursor: pointer;
 				padding: .4em 3em;
-				&.info{
-					border-bottom: 2px solid var(--awesome-orange);
-				}
-				&.ratings{
-					color: #b3b5b2;
-				}
 			}
 		}
 		div.r-content{
@@ -49,6 +43,24 @@ div.dashboard{
 				justify-content: space-between;
 				span.c-left{
 					padding-right: 10rem;
+				}
+			}
+			div.rating{
+				display: flex;
+				flex-direction: row;
+				margin-bottom: 2rem;
+				.avatar{
+					background-color: var(--awesome-dark);
+					width: 60px;
+					height: 45px;
+					margin-right: .8rem;
+					border-radius: 50rem;
+				}
+				.review{
+					font-size: 13px;
+					.review-comment{
+
+					}
 				}
 			}
 		}

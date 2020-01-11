@@ -12,6 +12,10 @@
 body{
 	margin-top: 40px;
 	nav{
+		.active{
+			color: var(--awesome-orange) !important;
+			font-weight: bold;
+		}
 		&.navbar.fixed-top{
 			font-size: 14px;
 			box-shadow: 0 0 2px 1px rgba(0,0,0,0.2);
@@ -40,13 +44,17 @@ body{
 			}
 		}
 	}
-	/* Search banner */
-
-
-	.active{
-		color: var(--awesome-orange) !important;
-		font-weight: bold;
+	/* Global styles*/
+	.nav-tabs{
+		color: #b3b5b2;
+		.active{
+			color: var(--awesome-orange) !important;
+			border-bottom: 2px solid var(--awesome-orange);
+			font-weight: bold;
+		}
 	}
+
+	/* Search banner */
 	.awesome-shadow{
 		box-shadow: 1px 0px 3px rgba(0,0,0,.1);
 	}

@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -8,7 +9,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { FooterComponent } from './footer/footer.component';
 import { SearchComponent } from './search/search.component';
 import { ShowComponent } from './show/show.component';
-import { RatingsComponent } from './ratings/ratings.component';
+
 
 @NgModule({
   declarations: [
@@ -17,11 +18,11 @@ import { RatingsComponent } from './ratings/ratings.component';
     DashboardComponent,
     FooterComponent,
     SearchComponent,
-    ShowComponent,
-    RatingsComponent
+    ShowComponent
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
     AppRoutingModule
   ],
   providers: [],

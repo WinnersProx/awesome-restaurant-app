@@ -2,7 +2,7 @@
 	<div class="search-banner">
 		<div class="restaurant-logo">
 			<div class="logo-img">
-				<img src="../../assets/images/restaurant.png">
+				<img src="./assets/images/restaurant.png">
 			</div>
 			<div class="logo-description">
 				<h4 class="font-weight-bold text-white">KUGASIMA CAFFEE</h4>
@@ -15,46 +15,90 @@
 			<div class="row">
 				<div class="col-md-5 rounded">
 					<div class="p-0 bg-white awesome-shadow rounded">
-						<div class="r-header">
-							<div class="info font-weight-bold" (click)="viewInfos()">INFO</div>
-							<div class="ratings font-weight-bold" (click)="viewRatings()">RATINGS</div>
+						<div class="nav nav-tabs r-header">
+							<div class="info font-weight-bold active" data-toggle="tab" href="#infoTab">INFO</div>
+							<div class="ratings font-weight-bold" data-toggle="tab" href="#ratingTab">RATINGS</div>
 						</div>
-						<div class="r-content">
-							<div class="c-row">
-								<div class="c-left font-weight-bold">NAME</div>
-								<div class="c-right text-muted">KUGASIMA CAFFEE</div>
+						<div class="r-content tab-content">
+							<div class="tab-pane active" id="infoTab">
+								<div class="c-row">
+									<div class="c-left font-weight-bold">NAME</div>
+									<div class="c-right text-muted">KUGASIMA CAFFEE</div>
+								</div>
+								<div class="c-row">
+									<div class="c-left font-weight-bold">PHONE</div>
+									<div class="c-right text-muted">+(250) 780 000 000</div>
+								</div>
+								<div class="c-row">
+									<div class="c-left font-weight-bold">WEBSITE</div>
+									<div class="c-right text-muted">www.kugasima.rw</div>
+								</div>
+								<div class="c-row">
+									<div class="c-left font-weight-bold">LOCATION</div>
+									<div class="c-right text-muted">Kimihurura</div>
+								</div>
+								<div class="c-row">
+									<div class="c-left font-weight-bold">ONLINE DELIVERY</div>
+									<div class="c-right text-muted">Yes</div>
+								</div>
+								<div class="c-row">
+									<div class="c-left font-weight-bold">TABLE BOOKING</div>
+									<div class="c-right text-muted">Yes</div>
+								</div>
+								<div class="c-row">
+									<div class="c-left font-weight-bold">CUISINES</div>
+									<div class="c-right text-muted">Cafe</div>
+								</div>
+								<div class="c-row">
+									<div class="c-left font-weight-bold">CURRENCY</div>
+									<div class="c-right text-muted">$</div>
+								</div>
+								<div class="c-row">
+									<div class="c-left font-weight-bold">PRICE RANGE</div>
+									<div class="c-right text-muted">2</div>
+								</div>
 							</div>
-							<div class="c-row">
-								<div class="c-left font-weight-bold">PHONE</div>
-								<div class="c-right text-muted">+(250) 780 000 000</div>
+							<div class="tab-pane" id="ratingTab">
+								<div class="rating">
+								<div class="avatar"></div>
+								<div class="review">
+									<div class="reviewer font-weight-bold">Yves Honore</div>
+									<span class="text-awesome">5 Starts</span>
+									<div class="review-comment mt-3 text-muted">
+										The Best Banjiya I've ever had. It tasted a little sweet. Keep it up guys.
+									</div>
+								</div>
 							</div>
-							<div class="c-row">
-								<div class="c-left font-weight-bold">WEBSITE</div>
-								<div class="c-right text-muted">www.kugasima.rw</div>
+							<div class="rating">
+								<div class="avatar"></div>
+								<div class="review">
+									<div class="reviewer font-weight-bold">Yves Honore</div>
+									<span class="text-awesome">5 Starts</span>
+									<div class="review-comment mt-3 text-muted">
+										The Best Banjiya I've ever had. It tasted a little sweet. Keep it up guys.
+									</div>
+								</div>
 							</div>
-							<div class="c-row">
-								<div class="c-left font-weight-bold">LOCATION</div>
-								<div class="c-right text-muted">Kimihurura</div>
+							<div class="rating">
+								<div class="avatar"></div>
+								<div class="review">
+									<div class="reviewer font-weight-bold">Yves Honore</div>
+									<span class="text-awesome">5 Starts</span>
+									<div class="review-comment mt-3 text-muted">
+										The Best Banjiya I've ever had. It tasted a little sweet. Keep it up guys.
+									</div>
+								</div>
 							</div>
-							<div class="c-row">
-								<div class="c-left font-weight-bold">ONLINE DELIVERY</div>
-								<div class="c-right text-muted">Yes</div>
+							<div class="rating">
+								<div class="avatar"></div>
+								<div class="review">
+									<div class="reviewer font-weight-bold">Yves Honore</div>
+									<span class="text-awesome">5 Starts</span>
+									<div class="review-comment mt-3 text-muted">
+										The Best Banjiya I've ever had. It tasted a little sweet. Keep it up guys.
+									</div>
+								</div>
 							</div>
-							<div class="c-row">
-								<div class="c-left font-weight-bold">TABLE BOOKING</div>
-								<div class="c-right text-muted">Yes</div>
-							</div>
-							<div class="c-row">
-								<div class="c-left font-weight-bold">CUISINES</div>
-								<div class="c-right text-muted">Cafe</div>
-							</div>
-							<div class="c-row">
-								<div class="c-left font-weight-bold">CURRENCY</div>
-								<div class="c-right text-muted">$</div>
-							</div>
-							<div class="c-row">
-								<div class="c-left font-weight-bold">PRICE RANGE</div>
-								<div class="c-right text-muted">2</div>
 							</div>
 						</div>
 					</div>

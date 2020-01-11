@@ -1,27 +1,66 @@
-# AwesomeRestaurantsApp
+## AWESOME RESTAURANTS APP
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.22.
+## Platform Description
 
-## Development server
+ This is an awesome web app for listing restaurants based on the users needs.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Features
 
-## Code scaffolding
+The app will
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Allow the users to search for restaurants by location (e.g: Kigali, Rwanda).
+- Display found restaurants(name, location) from a search. 
+- Show a restaurant’s full details upon selection of the restaurant.
+- Show a restaurant’s daily menu upon selection of the restaurant.
+- Show a restaurant’s reviews upon selection of the restaurant.
 
-## Build
+## Pages
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Root : https://winnersprox.github.io/awesome-restaurant-app.
 
-## Running unit tests
+| Path | Description | 
+| --- | --- |
+| /dashboard | View the landing page with extra infos about the app |
+| /search/:location | Find restaurants based on their location |
+| /show/:restaurant | Show restaurant infos given a restaurant |
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+## Tools
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Tools used for development of this API are:
 
-## Further help
+- Framework: [Javascript/Angular](http://angular.io/).
+- Code Editor/IDE: [VSCode](https://code.visualstudio.com), [Sublime Text](https://www.sublimetext.com/).
+- Programming language: [JavaScript(ES6)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/).
+- Testing environment: Chrome Browser & CLI.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## Getting Started (Test on your own)
+
+1. Clone the github repository [here](https://github.com/WinnersProx/awesome-restaurant-app). Make sure you use the `develop` branch!
+
+2. Install Angular on your local machine by running `npm i -g @angular/cli@8.3.22` in your CLI 
+
+2. Install all dependencies using Your Command Line Interface by typing the command `npm install`
+
+3. Still in your CLI, run `ng serve` and visit [this link](http://localhost:4200) to start enjoying this app!
+
+## Deployment
+
+Can't struggle going through the steps above to run on your machine? Don't worry, 
+Look at the following deployment link to fully take advantage of our awesome app!
+
+- [AwesomeResto](https://winnersprox.github.io/awesome-restaurant-app).
+
+## Developed by
+
+- Vainqueur BIHAME
+
+## Acknowledgements
+
+- Awesomity Lab : [Awesomity Lab](https://awesomity.rw).
+
+## Contacts
+
+Any problem running the app ? Just reach out via
+
+- E-mail : bihames4vainqueur@gmail.com

@@ -13,9 +13,4 @@ export class ShowComponent implements OnInit {
   ngOnInit() {
   }
 
-  viewRatings()
-  {
-  	this.router.navigate(['ratings']);
-  }
-
 }
