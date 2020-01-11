@@ -12,8 +12,11 @@ div.dashboard{
 			color: var(--awesome-darker);
 		}
 		.search-form{
+			position: relative;
+			width: 20rem;
+			margin: 0 auto;
 			input[type="text"]{
-				width: 20rem;
+				width: 100%;
 				color: var(--awesome-orange);
 				border-radius: 4px;
 		    outline: none;
@@ -21,6 +24,12 @@ div.dashboard{
 		    overflow: visible;
 		    border: none;
 		    padding: 5px 10px;
+			}
+			.search-icon{
+				width: 20px !important;
+				position: absolute;
+		    top: .4em;
+		    right: .5em;
 			}
 		}
 	}
@@ -53,17 +62,44 @@ div.dashboard{
 	    		.rounded-circle{
 	    			display: block;
 	    			color: #ffffff;
-	    			font-size: 12px;
+	    			font-size: 11px;
 	    			font-weight: bold;
-	    			width: 45px;
-	    			height: 45px;
+	    			width: 40px;
+	    			height: 40px;
 	    			text-align: center;
-	    			line-height: 45px;
+	    			line-height: 40px;
 	    		}
 	    		.restaurant-description{
 	    			font-size: 13px;
 	    		}
 	    	}
+	    }
+
+	    &:before{
+	    	content: url("../../assets/icons/ios-arrow-back.svg");
+		    position: absolute;
+		    width: 40px;
+		    height: 40px;
+		    background: white;
+		    border-radius: 2px;
+		    top: 70px;
+		    left: 20px;
+		    opacity: .8;
+		    z-index: 1000;
+		    cursor: pointer;
+	    }
+	    &:after{
+	    	content: url("../../assets/icons/ios-arrow-forward.svg");
+		    position: absolute;
+		    width: 40px;
+		    height: 40px;
+		    background: white;
+		    border-radius: 2px;
+		    top: 70px;
+		    right: 20px;
+		    opacity: .8;
+		    z-index: 1000;
+		    cursor: pointer;
 	    }
 		}
 		.explore{
@@ -105,5 +141,6 @@ div.dashboard{
 			}
 		}
 	}
+
 
 }

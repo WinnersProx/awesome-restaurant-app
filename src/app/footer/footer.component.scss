@@ -1,0 +1,41 @@
+footer{
+	background: var(--awesome-dark);
+	div.contact-row{
+		div.contact{
+			h4{
+				padding-bottom: 2.8rem;
+			}
+			padding-top: 4em;
+			padding-bottom: 3em;
+			border-right: 1.5px solid #333232;
+			.contact-infos{
+				font-size: 14px;
+				color: var(--awesome-lighter);
+			}
+		}
+		div.form{
+			margin-top: 4em;
+			margin-bottom: 3em;
+			padding: 0 0 0 8em;
+			textarea{
+				resize: none;
+			}
+		}
+		div.social-medias{
+			margin-top: 1.5rem;
+			.icon{
+				background: var(--awesome-darker);
+				color: white;
+				padding: 3px;
+		    margin-right: .5em;
+		    border-radius: 50rem;
+			}
+		}
+	}
+	.copyright{
+		font-size: 13px;
+		background: var(--awesome-darker);
+		padding: 1.3em 4em;
+		color: var(--awesome-lighter);
+	}
+}

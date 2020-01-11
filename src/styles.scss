@@ -47,10 +47,34 @@ body{
 		color: var(--awesome-orange) !important;
 		font-weight: bold;
 	}
-
+	.awesome-shadow{
+		box-shadow: 1px 0px 3px rgba(0,0,0,.1);
+	}
+	.text-awesome{
+		color: var(--awesome-orange) !important;
+	}
 	.bg-awesome-orange{
 		background-color: var(--awesome-orange);
 		color: var(--awesome-light) !important;
 	}
 
+	/* Icons */
+	.icon{
+		width: 22px;
+		&.icon-search{
+			content: url('./assets/icons/ios-search.svg');
+		}
+		&.icon-google{
+			content: url('./assets/icons/logo-googleplus.svg');
+		}
+		&.icon-twitter{
+			content: url('./assets/icons/logo-twitter.svg');
+		}
+		&.icon-notification{
+			content: url('./assets/icons/ios-notifications.svg');
+		}
+		&.icon-linkedin{
+			content: url('./assets/icons/logo-linkedin.svg');
+		}
+	}
 }
