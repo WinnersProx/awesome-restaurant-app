@@ -14,18 +14,12 @@ The app will
 - Show a restaurant’s daily menu upon selection of the restaurant.
 - Show a restaurant’s reviews upon selection of the restaurant.
 
-## Pages
+##Tasks to be implemented
 
-Root : https://winnersprox.github.io/awesome-restaurant-app.
+- Make usage of Zomato API to fetch restaurants
+- Make the application much more responsive accross all devices
 
-| Path | Description | 
-| --- | --- |
-| /dashboard | View the landing page with extra infos about the app |
-| /search/:location | Find restaurants based on their location |
-| /show/:restaurant | Show restaurant infos given a restaurant |
-
-
-## Tools
+## Development Tools
 
 Tools used for development of this API are:
 
@@ -36,7 +30,7 @@ Tools used for development of this API are:
 
 ## Getting Started (Test on your own)
 
-1. Clone the github repository [here](https://github.com/WinnersProx/awesome-restaurant-app). Make sure you use the `develop` branch!
+1. Clone the github repository [here](https://github.com/WinnersProx/awesome-restaurant-app). Make sure you use the `develop` branch and that Node.js is installed on your machine!
 
 2. Install Angular on your local machine by running `npm i -g @angular/cli@8.3.22` in your CLI 
 
@@ -49,7 +43,7 @@ Tools used for development of this API are:
 Can't struggle going through the steps above to run on your machine? Don't worry, 
 Look at the following deployment link to fully take advantage of our awesome app!
 
-- [AwesomeResto](https://winnersprox.github.io/awesome-restaurant-app).
+- AwesomeResto : [AwesomeResto](https://winnersprox.github.io/awesome-restaurant-app).
 
 ## Developed by
 
