@@ -17,8 +17,9 @@ export class RestaurantsService {
 
   constructor(private http : HttpClient) { }
 
-  getRestaurants()
+  fetchRestaurants()
   {
-  	// return this.http.get(`${this.base_url}/searchapi.php?62`);
+  	//this.http.get(`${this.base_url}/searchapi.php?62`);
+    return ['KGSM', 'Camelia', 'Esta', 'Impact', 'CC'];
   }
 }
