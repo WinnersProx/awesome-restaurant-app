@@ -43,7 +43,7 @@ Tools used for development of this API are:
 Can't struggle going through the steps above to run on your machine? Don't worry, 
 Look at the following deployment link to fully take advantage of our awesome app!
 
-- [AwesomeResto](https://winnersprox.github.io/awesome-restaurant-app).
+- AwesomeResto : [AwesomeResto](https://winnersprox.github.io/awesome-restaurant-app).
 
 ## Developed by
 
