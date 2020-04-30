@@ -24,7 +24,7 @@
     "bootstrap": "^4.4.1",
     "gh-pages": "^2.2.0",
     "ionicons": "^4.6.3",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "rapidapi-connect": "0.0.6",
     "rxjs": "~6.4.0",
     "tslib": "^1.10.0",
