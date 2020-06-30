@@ -14,7 +14,7 @@ The app will
 - Show a restaurant’s daily menu upon selection of the restaurant.
 - Show a restaurant’s reviews upon selection of the restaurant.
 
-##Tasks to be implemented
+## Tasks to be implemented
 
 - Make usage of Zomato API to fetch restaurants
 - Make the application much more responsive accross all devices
